@@ -79,7 +79,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     //*** 以下是Vdoing主题相关配置，文档：https://doc.xugaoyi.com/pages/a20ce8/ ***//
 
-    category: false, // 是否打开分类功能，默认true
+    // category: false, // 是否打开分类功能，默认true
     tag: false, // 是否打开标签功能，默认true
     archive: false, // 是否打开归档功能，默认true
     // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
@@ -146,7 +146,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2023, // 博客创建年份
       copyrightInfo:
-        'cyn | <a href="https://github.com/cyn6/cyn6.github.io/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+        'cyn | <a href="https://github.com/cyn6/push_blog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
@@ -205,34 +205,34 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 'fulltext-search',
 
     // 可以添加第三方搜索链接的搜索框（继承原官方搜索框的配置参数）
-    [
-      'thirdparty-search',
-      {
-        thirdparty: [
-          {
-            title: '在MDN中搜索',
-            frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
-            behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
-          },
-          {
-            title: '在Runoob中搜索',
-            frontUrl: 'https://www.runoob.com/?s=',
-          },
-          {
-            title: '在Vue API中搜索',
-            frontUrl: 'https://cn.vuejs.org/v2/api/#',
-          },
-          {
-            title: '在Bing中搜索',
-            frontUrl: 'https://cn.bing.com/search?q=',
-          },
-          {
-            title: '通过百度搜索本站的',
-            frontUrl: `https://www.baidu.com/s?wd=site%3A${DOMAIN_NAME}%20`,
-          },
-        ],
-      }
-    ],
+    // [
+    //   'thirdparty-search',
+    //   {
+    //     thirdparty: [
+    //       {
+    //         title: '在MDN中搜索',
+    //         frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
+    //         behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
+    //       },
+    //       {
+    //         title: '在Runoob中搜索',
+    //         frontUrl: 'https://www.runoob.com/?s=',
+    //       },
+    //       {
+    //         title: '在Vue API中搜索',
+    //         frontUrl: 'https://cn.vuejs.org/v2/api/#',
+    //       },
+    //       {
+    //         title: '在Bing中搜索',
+    //         frontUrl: 'https://cn.bing.com/search?q=',
+    //       },
+    //       {
+    //         title: '通过百度搜索本站的',
+    //         frontUrl: `https://www.baidu.com/s?wd=site%3A${DOMAIN_NAME}%20`,
+    //       },
+    //     ],
+    //   }
+    // ],
 
     [
       'one-click-copy', // 代码块复制按钮
