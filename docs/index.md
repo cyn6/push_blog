@@ -11,17 +11,17 @@ features: # 可选的
   - title: Java开发
     details: Java技术、开发问题记录
     link: /java/ # 可选
-    imgUrl: /img/computer.jpg # 可选
+    imgUrl: https://cdn.jsdelivr.net/gh/cyn6/cyn6.github.io/img/computer.jpg # 可选
 
   - title: 计算机基础
     details: 涵盖计算机网络、数据结构与算法、操作系统等
     link: /base/ # 可选
-    imgUrl: /img/panda-waving.png # 可选
+    imgUrl: https://cdn.jsdelivr.net/gh/cyn6/cyn6.github.io/img/panda-waving.png # 可选
 
   - title: 技术
     details: 技术文档、教程、技巧、总结等文章
     link: /technology/
-    imgUrl: /img/other.png
+    imgUrl: https://cdn.jsdelivr.net/gh/cyn6/cyn6.github.io/img/other.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
