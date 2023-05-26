@@ -34,7 +34,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: 'java开发',
         link: '/java/',
         items: [
-          { text: 'java开发知识', link: '/pages/43c85a/' },
+          { text: 'java开发知识', link: '/pages/afdb9e/' },
           { text: '开发问题记录', link: '/pages/8b9ec6/' },
         ],
       },
@@ -64,6 +64,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '面试', link: '/pages/f70c9c/' },
           { text: '实用技巧', link: '/pages/2ee040/' },
         ],
+      },
+      {
+        text: '个人简历',
+        link: '/pages/8b2ab0/',
       },      
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
@@ -112,7 +116,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // defaultMode: 'auto',
 
     // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | <自定义>    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
-    sidebar: 'structuring',
+    sidebar: { mode: 'structuring', collapsable: false},
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
